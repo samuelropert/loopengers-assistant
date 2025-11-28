@@ -1,6 +1,6 @@
 "use client";
 import React, { useState, useEffect } from 'react';
-import VoiceRecorder from '@/components/VoiceRecorder'; 
+import VoiceRecorder from './VoiceRecorder'; // <-- Utilisez ce chemin'
 import { fetchExtraction, fetchPrice, fetchExplanation } from '@/lib/api';
 
 export default function ChatBox() {
