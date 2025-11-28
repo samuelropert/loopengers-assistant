@@ -1,6 +1,7 @@
 "use client";
-import { useState } from "react";
-import VoiceRecorder from "@/components/VoiceRecorder";
+import React, { useState, useEffect } from 'react';
+import VoiceRecorder from '@/components/VoiceRecorder'; 
+import { fetchExtraction, fetchPrice, fetchExplanation } from '@/lib/api';
 
 export default function ChatBox() {
   const [messages, setMessages] = useState([]);
