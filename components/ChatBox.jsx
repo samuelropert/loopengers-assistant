@@ -1,6 +1,7 @@
 "use client";
 import React, { useState, useEffect } from 'react';
-import VoiceRecorder from './VoiceRecorder'; // <-- Utilisez ce chemin'
+// Tentez d'ajouter l'extension .jsx pour forcer la résolution.
+import VoiceRecorder from './VoiceRecorder.jsx';
 import { fetchExtraction, fetchPrice, fetchExplanation } from '@/lib/api';
 
 export default function ChatBox() {
