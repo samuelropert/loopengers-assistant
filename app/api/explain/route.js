@@ -1,4 +1,4 @@
-import { openai } from '@/lib/openai';
+import { openai } from '../../../lib/openai'; // <-- Utilisez ce chemin
 import { NextResponse } from 'next/server';
 
 export async function POST(req) {
